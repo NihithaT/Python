@@ -1,0 +1,10 @@
+print ("identity: XOR with 0 keeps the number")
+print("6^0=", 6^0, "binary representation of", 6^0, "is", bin(6^0)[2:])
+print("15^0=", 15^0, "binary representation of", 15^0, "is", bin(15^0)[2:])
+print("equality: XOR with itself gives 0")
+print("6^6=", 6^6, "binary representation of", 6^6, "is", bin(6^6)[2:])
+print("15^15=", 15^15, "binary representation of", 15^15, "is", bin(15^15)[2:])
+m= int(input("Enter a number:"))
+print("identity:m^0= ",m^0, "binary representation", bin(m^0)[2:])
+print("equality:m^m= ",m^m, "binary representation", bin(m^m)[2:])
+
