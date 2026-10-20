@@ -1,0 +1,6 @@
+print("Binary exponentiation uses bits of the exponent")
+print("2^8 = 256, exponent 8 binary representation is", bin(8)[2:])
+print("2^5 = 32, exponent 5 binary representation is", bin(5)[2:])
+exp=int(input("Enter the exponent:"))
+print("exponent:", exp," binary representation of", exp, "is", bin(exp)[2:])
+print("2^", exp, "=", 2**exp)
