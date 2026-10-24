@@ -1,0 +1,6 @@
+print("Left shift dubbles the number, right shift halves the number")
+n = int(input("Enter a number:"))
+print("n << 1 =", n << 1, "binary representation of", n << 1, "is", bin(n << 1)[2:])
+print("n >> 1 =", n >> 1, "binary representation of", n >> 1, "is", bin(n >> 1)[2:])
+print("n << 2 =", n << 2, "binary representation of", n << 2, "is", bin(n << 2)[2:])
+print("n >> 2 =", n >> 2, "binary representation of", n >> 2, "is", bin(n >> 2)[2:])
